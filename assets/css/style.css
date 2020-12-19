@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.background {
+    background-image: url('../images/trees.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 800px;
+}
+
+.btn-white, .colour-white {
+    color: white !important;
+}
