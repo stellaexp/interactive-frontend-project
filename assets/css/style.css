@@ -70,6 +70,20 @@ hr.end-header {
     margin-right: -50vw;
 }
 
+/* Fix margin as images displaying on the left - solved here https://stackoverflow.com/questions/33130035/how-can-i-center-items-in-slick-carousel/33132939 */
+.slider-img {
+    max-height: 600px;
+    width: auto;
+    margin: 0 auto;
+}
+
+/* arrows wouldn't show - found solution here https://kenwheeler.github.io/slick/ */
+.slick-prev:before,
+.slick-next:before {
+color: black !important;
+}
+
+
 .footer {
     /*background: #81ccfb;*/
     padding: 3em;
