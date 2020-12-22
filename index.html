@@ -17,6 +17,9 @@
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- Slick js -->
+    <link rel="stylesheet" type="text/css" href="./assets/vendors/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/vendors/slick/slick-theme.css"/>
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -77,11 +80,14 @@
 
                     <div class="row row mt-5 mb-5">
                         <div class="col-lg-12">
-
-
-
+                            <div class="slick">
+                                <div><img class="slider-img" src="./assets/images/trees.jpg"></div>
+                                <div><img class="slider-img" src="./assets/images/trees.jpg"></div>
+                                <div><img class="slider-img" src="./assets/images/trees.jpg"></div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
 
@@ -92,6 +98,20 @@
               <small>Copyright &copy; Hidden Huts 2020</small>
             </div>
     </footer>
+    <script type="text/javascript" src="./assets/vendors/slick/slick.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+    $('.slick').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear',
+            arrows: true
+        });
+    });
+    </script>
 
 </body>
 </html>
