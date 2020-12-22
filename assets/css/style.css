@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Caveat-Bold';
+    src: url('../fonts/Caveat/static/Caveat-Bold.ttf') format('truetype');
+  }
+
 body {
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     max-width: 100%;
@@ -12,6 +17,53 @@ body {
     height: 800px;
 }
 
+.nav-link {
+    margin-left: 5px!important;
+    margin-right: 5px !important;
+}
+
 .btn-white, .colour-white {
     color: white !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#contact-btn {
+    border: solid 2px white;
+}
+
+#contact-btn:hover {
+    background-color: #c4747f;
+    transition: 0.8s;
+    color: white;
+}
+
+.caveat-font {
+    font-family: 'Caveat-Bold';
+}
+
+#center-jumbotron {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+hr.end-header {
+    height: 0px;
+    border: none;
+    border-top: 2px solid white;
+    width: 120px;
+}
+
+.footer {
+    /*background: #81ccfb;*/
+    padding: 3em;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
