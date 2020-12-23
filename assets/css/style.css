@@ -22,8 +22,12 @@ body {
     margin-right: 5px !important;
 }
 
-.btn-white, .colour-white {
+.colour-white, .btn-white {
     color: white !important;
+}
+
+.colour-black, .btn-dark {
+    color: black !important;
 }
 
 .bold {
