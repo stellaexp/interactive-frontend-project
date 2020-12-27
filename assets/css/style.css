@@ -4,7 +4,8 @@
   }
 
 body {
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif, sans-serif;*/
+    font-family: 'Rubik', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -17,6 +18,10 @@ body {
     height: 800px;
 }
 
+.navbar-expand-lg .navbar-nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .nav-link {
     margin-left: 5px!important;
     margin-right: 5px !important;
@@ -26,7 +31,7 @@ body {
     color: white !important;
 }
 
-.colour-black, .btn-dark {
+.colour-black {
     color: black !important;
 }
 
@@ -48,6 +53,12 @@ body {
     font-family: 'Caveat-Bold';
 }
 
+.arial-font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* INDEX PAGE */
+
 #center-jumbotron {
     position: absolute;
     top: 50%;
@@ -60,7 +71,7 @@ body {
 hr.end-header {
     height: 0px;
     border: none;
-    border-top: 2px solid white;
+    border-top: 0.0625rem solid white;
     width: 120px;
 }
 
