@@ -4,10 +4,11 @@
   }
 
 body {
-    /*font-family: Arial, Helvetica, sans-serif, sans-serif;*/
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif !important;
     max-width: 100%;
     overflow-x: hidden;
+    /* direct to about section + add smooth scroll https://stackoverflow.com/questions/24739126/scroll-to-a-specific-element-using-html */
+    scroll-behavior: smooth;
 }
 
 .background {
@@ -55,6 +56,10 @@ body {
 
 .arial-font {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.rubik-font {
+    font-family: 'Rubik', sans-serif;
 }
 
 /* INDEX PAGE */
@@ -107,7 +112,6 @@ color: black !important;
 .btn-dark {
     border: solid 2px black;
 }
-
 
 
 .footer {
