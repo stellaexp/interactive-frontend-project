@@ -98,6 +98,17 @@ hr.end-header {
 color: black !important;
 }
 
+/* CONTACT FORM */
+
+#center-contact-form {
+	justify-content: center;
+}
+
+.btn-dark {
+    border: solid 2px black;
+}
+
+
 
 .footer {
     /*background: #81ccfb;*/
