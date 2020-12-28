@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Hidden Huts</title>
+    <!-- CDN google fonts and font awesome-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- Slick js -->
+    <link rel="stylesheet" type="text/css" href="./assets/vendors/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/vendors/slick/slick-theme.css"/>
+    <!-- Bootstrap & jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="background-white">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid homepage">
+                    <a class="navbar-brand bold caveat-font" href="index.html">HH</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link colour-black" href="index.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle colour-black" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    HUTS
+                                    </a>
+                                    <div class="dropdown-menu text-uppercase" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="hut-1.html">Hut 1</a>
+                                        <a class="dropdown-item" href="hut-2.html">Hut 2</a>
+                                    </div>
+                            </li>
+                            <li class="nav-item active">
+                                <button id="contact-btn" type="button" class="btn btn-dark" href="#">CONTACT</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+
+        <div class="container">
+            <div class="row mt-5 mb-5">
+                <h3 class="mb-3 mb-5 arial-font bold">HUT 1</h3>
+                    <div class="col-lg-12">
+                         <!-- use of a third party library - slick js carousel for images -->
+                            <div class="slick">
+                                <div><img class="slider-img" src="./assets/images/01.jpg"></div>
+                                <div><img class="slider-img" src="./assets/images/02.jpeg"></div>
+                                <div><img class="slider-img" src="./assets/images/03.jpeg"></div>
+                            </div>
+                    </div>       
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <h3 class="mb-3 arial-font bold text-center">Amenities</h3>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-3 arial-font bold text-center">Book</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer id="sticky-footer" class="py-4">
+            <div class="container text-center">
+              <small>Copyright &copy; Hidden Huts 2020</small>
+            </div>
+    </footer>
+    <script type="text/javascript" src="./assets/vendors/slick/slick.js"></script>
+    <script src="./assets/js/slick-custom.js"></script>
+</body>
+</html>
