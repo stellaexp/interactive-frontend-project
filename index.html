@@ -87,6 +87,7 @@
 
                     <div class="row row mt-5 mb-5">
                         <div class="col-lg-12">
+                            <!-- use of a third party library - slick js carousel for images -->
                             <div class="slick">
                                 <div><img class="slider-img" src="./assets/images/01.jpg"></div>
                                 <div><img class="slider-img" src="./assets/images/02.jpeg"></div>
@@ -106,19 +107,7 @@
             </div>
     </footer>
     <script type="text/javascript" src="./assets/vendors/slick/slick.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function(){
-
-    $('.slick').slick({
-            dots: true,
-            infinite: true,
-            speed: 500,
-            fade: true,
-            cssEase: 'linear',
-            arrows: true
-        });
-    });
-    </script>
+    <script src="./assets/js/slick-custom.js"></script>
 
 </body>
 </html>

@@ -7,7 +7,6 @@ body {
     font-family: 'Rubik', sans-serif !important;
     max-width: 100%;
     overflow-x: hidden;
-    /* direct to about section + add smooth scroll https://stackoverflow.com/questions/24739126/scroll-to-a-specific-element-using-html */
     scroll-behavior: smooth;
 }
 
