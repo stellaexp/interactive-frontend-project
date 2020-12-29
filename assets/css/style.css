@@ -123,6 +123,10 @@ color: black !important;
   }
 }
 
+.availability-calendar-toolbar {
+    margin-bottom: 0.65rem;
+}
+
 .footer {
     /*background: #81ccfb;*/
     padding: 3em;

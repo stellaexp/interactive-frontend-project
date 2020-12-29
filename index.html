@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="./images/favicon/favicon.ico">
+    <link rel="shortcut icon" href="./assets/images/favicon/favicon.ico">
     <title>Hidden Huts</title>
     <!-- CDN google fonts and font awesome-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,6 +28,7 @@
 </head>
 <body>
     <div class="background">
+        <!-- start of navigation -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid homepage">
                     <a class="navbar-brand bold colour-white caveat-font" href="#">HH</a>
@@ -57,8 +58,9 @@
                     </div>
                 </div>
         </nav>
+        <!-- end of nav -->
 
-
+        <!-- main jumbotron -->
             <div id="center-jumbotron">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -87,7 +89,7 @@
 
                     <div class="row row mt-5 mb-5">
                         <div class="col-lg-12">
-                            <!-- use of a third party library - slick js carousel for images -->
+                            <!-- use of a third party plugin - slick js carousel for images -->
                             <div class="slick">
                                 <div><img class="slider-img" src="./assets/images/01.jpg"></div>
                                 <div><img class="slider-img" src="./assets/images/02.jpeg"></div>
@@ -99,8 +101,16 @@
                 </div>
             </div>
 
+            <!-- Section for Google Maps API -->
+            <section class="container">
+                <div class="row row mt-5 mb-5">
+                    <div class="col-lg-12">
+                        <h3 class="mb-3 arial-font bold">LOCATIONS</h3>
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </section>
 
-    </div>
     <footer id="sticky-footer" class="py-4">
             <div class="container text-center">
               <small>Copyright &copy; Hidden Huts 2020</small>
