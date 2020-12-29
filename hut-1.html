@@ -21,6 +21,8 @@
     <!-- Slick js -->
     <link rel="stylesheet" type="text/css" href="./assets/vendors/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/vendors/slick/slick-theme.css"/>
+    <!-- jquery availability calender -->
+    <link href="./assets/vendors/calendar/availability-calendar.css" rel="stylesheet">
     <!-- Bootstrap & jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -59,23 +61,56 @@
         </nav>
 
         <div class="container">
-            <div class="row mt-5 mb-5">
+            <div class="mt-5 mb-5">
                 <h3 class="mb-3 mb-5 arial-font bold">HUT 1</h3>
-                    <div class="col-lg-12">
+            </div>
+            <div class="row mt-5 mb-5">
+                    <div class="col-lg-8">
                          <!-- use of a third party library - slick js carousel for images -->
                             <div class="slick">
                                 <div><img class="slider-img" src="./assets/images/01.jpg"></div>
                                 <div><img class="slider-img" src="./assets/images/02.jpeg"></div>
                                 <div><img class="slider-img" src="./assets/images/03.jpeg"></div>
                             </div>
-                    </div>       
-            </div>
+                    </div>  
+                    <div class="col-lg-4">
+                        <button class="btn btn-success text-uppercase bold" data-toggle="modal" data-target="#calendarView">Check availability</button>
+                    </div>
+                    <!-- Bootstrap Modal -->
+                    <div class="modal fade" id="calendarView" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Availability Calendar</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="calendar"></div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
             <div class="row mt-5">
-                <div class="col-lg-6">
-                    <h3 class="mb-3 arial-font bold text-center">Amenities</h3>
-                </div>
-                <div class="col-lg-6">
-                    <h3 class="mb-3 arial-font bold text-center">Book</h3>
+                <div class="col-lg-12">
+                    <h3 class="mb-3 arial-font text-center">Amenities</h3>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -88,5 +123,14 @@
     </footer>
     <script type="text/javascript" src="./assets/vendors/slick/slick.js"></script>
     <script src="./assets/js/slick-custom.js"></script>
+    <script src="./assets/vendors/calendar/availability-calendar.js"></script>
+    <script>
+        var unavailableDates = [
+            {start: '2020-12-11', end: '2020-12-15'},
+            {start: '2020-09-15', end: '2020-09-23'},
+            {start: '2020-10-01', end: '2020-10-07'}
+        ];
+        $('#calendar').availabilityCalendar(unavailableDates);
+    </script>
 </body>
 </html>

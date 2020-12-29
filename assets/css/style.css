@@ -112,6 +112,16 @@ color: black !important;
     border: solid 2px black;
 }
 
+/* HUT DETAIL PAGE */
+
+/* Created a wider modal using this https://stackoverflow.com/questions/25859255/trying-to-make-bootstrap-modal-wider */
+@media (min-width: 768px) {
+  .modal-xl {
+    height: auto;
+    width: 80%;
+    max-width: 1200px;
+  }
+}
 
 .footer {
     /*background: #81ccfb;*/
