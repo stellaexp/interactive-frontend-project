@@ -22,6 +22,20 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript"> 
+        (function(){
+        emailjs.init("user_NjZWh4qnG3A9vjWb6Aa5u");
+        emailjs.send(serviceID, templateID, templateParams, userID);
+    })();
+        emailjs.sendForm('service_olp5z8i', 'template_4v6wcfc', '#form')
+        .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+        console.log('FAILED...', error);
+        });
+    </script>
+
 </head>
 <body>
     <div class="background-white">
@@ -61,7 +75,7 @@
                             <h3 class="mb-3 arial-font bold">CONTACT</h3>
                             <br>
                             <!-- start of form -->
-                            <form action="">
+                            <form onsubmit="return sendMail(this);">
                                 <div class="form-row rubik-font">
                                     <div class="form-group col-md-6">
                                         <label for="first_name">First</label>
