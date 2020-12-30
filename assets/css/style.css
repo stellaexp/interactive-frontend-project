@@ -117,6 +117,21 @@ color: black !important;
     width: 100%
 }
 
+ @media only screen and (max-width: 991px) {
+     .navbar {
+         background-color: white;
+     }
+     .navbar-light .navbar-brand {
+         color: black !important;
+     }
+    .background {
+        background-image: none;
+        height: auto;
+}
+
+}
+
+
 /* CONTACT FORM */
 
 #center-contact-form {
@@ -207,7 +222,6 @@ color: black !important;
     font-size: 17px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border-bottom: none;
   
 }
 
@@ -234,6 +248,7 @@ button.tablinks.text-uppercase {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 1px solid #ccc;
+    border-bottom: none;
 }
 
 /* END OF ALL PAGES */
