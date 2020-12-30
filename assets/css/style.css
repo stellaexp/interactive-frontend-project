@@ -102,6 +102,13 @@ hr.end-header {
 color: black !important;
 }
 
+#map {
+    /*overflow: visible !important;
+    position: inherit !important;*/
+    height: 400px;
+    width: 100%
+}
+
 /* CONTACT FORM */
 
 #center-contact-form {
