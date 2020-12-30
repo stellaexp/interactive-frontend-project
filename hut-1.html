@@ -32,7 +32,7 @@
     <div class="background-white">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid homepage">
-                    <a class="navbar-brand bold caveat-font" href="index.html">HH</a>
+                    <a class="navbar-brand bold caveat-font" href="/">HH</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link colour-black" href="index.html">ABOUT</a>
+                                <a class="nav-link colour-black" href="/#about">ABOUT</a>
                             </li>
                             <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle colour-black" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -110,11 +110,11 @@
             <div id="tab-container" class="mt-5">
                 <!-- start of tabs -->
                    <div class="tab">
-                        <button class="tablinks text-uppercase" onclick="openTab(event, 'About')">About</button>
-                        <button class="tablinks text-uppercase" onclick="openTab(event, 'Location')">Location</button>
+                        <button class="tablinks text-uppercase active" onclick="openTab('About', event)">About</button>
+                        <button class="tablinks text-uppercase" onclick="openTab('Location', event)">Location</button>
                     </div>
 
-                    <div id="About" class="tabcontent">
+                    <div id="About" class="tabcontent" style="display: block">
                         <div class="ml-3 mr-3">
                             <h3 class="mt-3 mb-3">About</h3>
                             <p>Details here</p>
