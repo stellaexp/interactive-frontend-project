@@ -18,7 +18,7 @@ Feature 1 - allows users X to achieve Y, by having them fill out Z
 
 ## Technologies used
 
-HTML, CSS and Javascript were the fundamental technologies this project was built upon. Aside from those, I used the following to assit and create my website;
+HTML, CSS and Javascript were the fundamental technologies this project was built upon. Aside from those, I used the following to assist with the planning and implementation my website;
 
 1. [Balsamiq](https://balsamiq.com/)
 * Wireframing tool used to create low-fidelity wireframes.
@@ -39,7 +39,7 @@ HTML, CSS and Javascript were the fundamental technologies this project was buil
 9. [Responsive Availability Calendar](https://www.jqueryscript.net/time-clock/Simple-Responsive-Availability-Calendar-Plugin-For-jQuery.html)
 * A lightweight, responsive jQuery availability calendar plugin.
 10. [emaiJS](https://www.emailjs.com/)
-Sends an email from Javascript code.
+* Sends an email from Javascript code.
 
 ## Testing
 
@@ -74,7 +74,13 @@ I encountered numerous bugs and was able to troubleshoot them by reading documen
 The text for this project is entirely fictional and created by myself.
 
 ## Media
-The photos used in this site were obtained from unsplash.com.
+The photos used in this site were obtained from unsplash.com. The credits for these are as follows:
+
+Image 01.jpg
+<span>Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/s/photos/glamping?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+Image 04.jpg and 05.jpg 
+<span>Photo by <a href="https://unsplash.com/@andreaedavis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andrea Davis</a> on <a href="https://unsplash.com/s/photos/glamping?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 All other images are my own.
 
