@@ -71,7 +71,7 @@ h3 {
 }
 
 p {
-    font-size: 1.125rem;
+    font-size: 1.125em;
 }
 
 /* INDEX PAGE */
@@ -88,7 +88,7 @@ p {
 hr.end-header {
     height: 0px;
     border: none;
-    border-top: 0.0625rem solid white;
+    border-top: 0.0625em solid white;
     width: 120px;
 }
 
@@ -116,13 +116,11 @@ color: black !important;
 }
 
 #map {
-    /*overflow: visible !important;
-    position: inherit !important;*/
     height: 400px;
-    width: 100%
+    width: 100%;
 }
 
- @media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
      .navbar {
          background-color: white;
      }
@@ -132,10 +130,23 @@ color: black !important;
     .background {
         background-image: none;
         height: auto;
-}
+    }
+    #tab-container {
+        margin: 20px;
+    }
 
 }
 
+@media only screen and (max-width: 600px) {
+       .align-bottom {
+        position: inherit !important;
+    }
+
+    .responsive-margin {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
 
 /* CONTACT FORM */
 
@@ -193,7 +204,7 @@ color: black !important;
 }
 
 .availability-calendar-toolbar {
-    margin-bottom: 0.65rem;
+    margin-bottom: 0.65em;
 }
 
 .align-bottom {
@@ -250,7 +261,7 @@ color: black !important;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
-  min-height: 18.75rem;
+  min-height: 18.75em;
 }
 
 button.tablinks.text-uppercase {

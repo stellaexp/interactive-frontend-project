@@ -38,7 +38,7 @@ HTML, CSS and Javascript were the fundamental technologies this project was buil
 * slick is a responsive image carousel jQuery plugin.
 9. [Responsive Availability Calendar](https://www.jqueryscript.net/time-clock/Simple-Responsive-Availability-Calendar-Plugin-For-jQuery.html)
 * A lightweight, responsive jQuery availability calendar plugin.
-10. [emaiJS](https://www.emailjs.com/)
+10. [emailJS](https://www.emailjs.com/)
 * Sends an email from Javascript code.
 
 ## Testing
@@ -68,7 +68,21 @@ Then run
 
 ## Bugs
 
-I encountered numerous bugs and was able to troubleshoot them by reading documentation or using stack overflow. I will list the following ugs I encountered here:
+I encountered numerous bugs and was able to troubleshoot them by reading documentation, using stack overflow and going over my code with a fine tooth comb. 
+
+I will list the major bugs I encountered here and in my comments:
+
+### Google Maps
+
+Google maps would not load on page. I kept getting this error message in the console:
+
+`Google Maps JavaScript API RefererNotAllowedMapError`
+
+I went into the Google Cloud Platform Console and amended the credentials, billing details and upgraded my account but it still wouldn't show. 
+
+I then tried trouleshooting it here on [stack overflow](https://stackoverflow.com/questions/35288250/google-maps-javascript-api-referernotallowedmaperror)
+I went through my cdn's and realised the cdn path was incorrect, both the API key supplied was incorrect and the calling of `initMap`.
+
 
 ## Content
 The text for this project is entirely fictional and created by myself.
@@ -77,15 +91,19 @@ The text for this project is entirely fictional and created by myself.
 The photos used in this site were obtained from unsplash.com. The credits for these are as follows:
 
 Image 01.jpg
+
 <span>Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/s/photos/glamping?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 Image 04.jpg, 05.jpg 06.jpg
+
 <span>Photo by <a href="https://unsplash.com/@andreaedavis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andrea Davis</a> on <a href="https://unsplash.com/s/photos/glamping?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 Image 07.jpg and 08.jpg
+
 <span>Photo by <a href="https://unsplash.com/@espenbi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Espen Bierud</a> on <a href="https://unsplash.com/s/photos/glamping?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 Image 09.jpg
+
 <span>Photo by <a href="https://unsplash.com/@alexandre13?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alex Batonisashvili</a> on <a href="https://unsplash.com/s/photos/glamping?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 All other images are my own.
