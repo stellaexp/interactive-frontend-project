@@ -166,4 +166,5 @@ The photos used in this site were obtained from unsplash.com. The credits for th
 All other images are my own.
 
 ## Acknowledgements
-I received inspiration for this project from [Canopy and Stars](https://www.canopyandstars.co.uk/). I would also like to thank tutor support, who helped me when I tried to change my last commit message and ended up in a merge conflict.
+I received inspiration for this project from [Canopy and Stars](https://www.canopyandstars.co.uk/). I would also like to thank tutor support, who helped me when I tried to change my last commit message and ended up in a merge conflict, this is detailed in a commit message `tutor commit`.
+Lastly, thank you Code Institute, in particular to Neil.
