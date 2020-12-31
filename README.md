@@ -49,7 +49,7 @@ To scale up this website, I could add multiple pages and a variety of new featur
 
 ## Technologies used
 
-HTML, CSS and Javascript were the fundamental technologies this project was built upon. Aside from those, I used the following to assist with the planning and implementation my website;
+HTML, CSS and Javascript were the fundamental technologies this project was built upon. Aside from those, I used the following to assist with the planning and implementation of my website;
 
 1. [Balsamiq](https://balsamiq.com/)
 * Wireframing tool used to create low-fidelity wireframes.
@@ -153,7 +153,7 @@ Google maps would not load on page. I kept getting this error message in the con
 
 I went into the Google Cloud Platform Console and amended the credentials, billing details and upgraded my account but it still wouldn't show. 
 
-I then tried troubleshooting it here on [stack overflow](https://stackoverflow.com/questions/35288250/google-maps-javascript-api-referernotallowedmaperror)
+I then tried troubleshooting it [here on stack overflow](https://stackoverflow.com/questions/35288250/google-maps-javascript-api-referernotallowedmaperror).
 I went through my cdn's and realised the cdn path was incorrect, both the API key supplied was incorrect and the calling of `initMap`.
 
 ### Email JS
