@@ -4,7 +4,9 @@ The purpose of this project was to create a website for the module Interactive F
 
 ## UX and UI
 I started the UX process by looking at other accomodation wesites, mainly [Canopy and Stars](https://www.canopyandstars.co.uk/). This helped me to get a better understanding of what a user would expect to see from such a site.
-I created some low-fidelity wireframes using the Balsamiq wireframing tool. After I had created these, I moved onto some high-fidelity wireframes using Adobe Xd. Once I was happy with my website, I could then begin the build process.
+I created some low-fidelity wireframes using the Balsamiq wireframing tool. After I had created these, I then created a couple of pages of high-fidelity wireframes using Adobe Xd so I could get the look and feel of the site.
+
+Once I was happy with my website, I could then begin the build process.
 
 You can find my user stories under the UI/UX folder in the main directory.
 
