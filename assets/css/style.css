@@ -192,6 +192,16 @@ color: black !important;
     width: 100%;
 }
 
+/* disable native datepicker in chrome - fixed here https://stackoverflow.com/questions/11320615/disable-native-datepicker-in-google-chrome */
+
+input::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
+input[type="date"]::-webkit-input-placeholder{ 
+    visibility: hidden !important;
+}
+
 
 /* HUT DETAIL PAGE */
 
