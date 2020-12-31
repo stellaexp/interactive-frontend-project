@@ -72,6 +72,40 @@ HTML, CSS and Javascript were the fundamental technologies this project was buil
 
 I decided to manually test the application. Each page was tested on Chrome, Firefox, Safari, Opera, Internet Explorer using the following the testing criteria;
 
+### Index Page
+
+| Section       | Functionality | 
+| ------------- |:-------------:|
+|  Navbar       | Links to relevant pages |
+| Navbar responsive     |  Works in responsive mode |
+| Jumbotron image | Loaded      |
+| slickjs | Slider working |
+| Responsive| Responds on all different mobile sizes |
+| Browsers| Cross-compatible on other browsers |
+
+### Hut 1 & 2 pages
+
+| Section       | Functionality | 
+| ------------- |:-------------:|
+|  Navbar       | Links to relevant pages |
+| Navbar responsive     |  Works in responsive mode |
+| slickjs | Slider working |
+| Bootstrap modal | Displaying on button selection |
+| Availability calendar | Calendar visible and dates booked are shown |
+| Responsive| Responds on all different mobile sizes |
+| Browsers| Cross-compatible on other browsers |
+
+### Contact
+
+| Section       | Functionality | 
+| ------------- |:-------------:|
+|  Navbar       | Links to relevant pages |
+| Navbar responsive     |  Works in responsive mode |
+| Form input | All input types relevant and working |
+| Form validation | Are the relevant fields required |
+| Availability calendar | Calendar visible and dates booked are shown |
+| Responsive| Responds on all different mobile sizes |
+| Browsers| Cross-compatible on other browsers |
 
 ## Deployment
 
