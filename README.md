@@ -102,8 +102,8 @@ I tried various methods of troubleshooting this - I used [stack overflow](https:
     document.getElementById("datepicker").value = "";
     document.getElementById("total").value = "";
     document.getElementById("notes").value = "";
-} ```
-
+}
+```
 
 But the onClick handler clashed with the emailJS library. In the end the simplest way to clear the form was to use the Form reset() Method, which I found on [w3 schools](https://www.w3schools.com/Jsref/met_form_reset.asp)
 
