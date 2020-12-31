@@ -38,6 +38,8 @@ To scale up this website, I could add multiple pages and a variety of new featur
 
 * Authenticated login
 
+* Booking system
+
 * Local weather
 
 * Filtering
