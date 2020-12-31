@@ -137,7 +137,7 @@ side of the screen.
 
 ## Credits
 
-## Bugs
+### Bugs
 
 I encountered numerous bugs and was able to troubleshoot them by reading documentation, using stack overflow and going over my code with a fine tooth comb. 
 
@@ -205,4 +205,4 @@ All other images are my own.
 ## Acknowledgements
 I received inspiration for this project from [Canopy and Stars](https://www.canopyandstars.co.uk/). I would also like to thank tutor support, who helped me when I tried to change my last commit message and ended up in a merge conflict, this is detailed in a commit message `tutor commit`.
 
-Lastly, thank you Code Institute for your patience, in particular to Neil.
+Lastly, thank you Code Institute for your patience - I want to give particular thanks to Neil.

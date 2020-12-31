@@ -124,16 +124,31 @@ color: black !important;
      .navbar {
          background-color: white;
      }
-     .navbar-light .navbar-brand {
-         color: black !important;
-     }
-    .background {
-        background-image: none;
-        height: auto;
+    .navbar-brand {
+        color: black !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5) !important;
     }
     #tab-container {
         margin: 20px;
     }
+    #contact-btn {
+        transition: 0.8s;
+        color: rgba(0,0,0,.5) !important;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .background {
+        height: auto;
+        width: 100%;
+    }
+    .btn {
+        margin-top: 40px;
+        padding: 0px;
+    }
+
+
 
 }
 
