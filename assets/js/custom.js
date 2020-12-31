@@ -24,7 +24,7 @@ $(document).ready(function(){
 });
 
 
-/* Ta functionality */
+/* Tab functionality following W3 schools tutorial and customised to make own https://www.w3schools.com/howto/howto_js_tabs.asp */
 
     function openTab(tabName, event) {
         var i, tabcontent, tablinks;
