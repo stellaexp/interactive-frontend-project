@@ -41,5 +41,14 @@ $(document).ready(function(){
         
     }
 
+/* ------- Another developers code ------- */
 /* Prevent default datepicker from displaying in chrome https://stackoverflow.com/questions/11320615/disable-native-datepicker-in-google-chrome */
-    jQuery('input[type="date"]').live('click', function(e) {e.preventDefault();}).datepicker();
+$('input[type="date"]').click(function(e){
+     e.preventDefault();
+    }).datepicker({
+        onSelect: function(dateText){
+            var d = new Date(dateText),
+            dv = d.getFullYear().toString().pad(4)+'-'+(d.getMonth()+1).toString().pad(2)+'-'+d.getDate().toString().pad(2);
+            $(this).val(dv).trigger('change');
+        }
+    });
