@@ -82,14 +82,14 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="option">Hut selected</label>
-                                    <select class="form-control" id="option" name="option">
+                                    <select class="form-control" id="option" name="option" required>
                                     <option>Hut 1</option>
                                     <option>Hut 2</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="group">Attendees</label>
-                                    <select class="form-control" id="group" name="group">
+                                    <select class="form-control" id="group" name="group" required>
                                         <option>1</option>
                                         <option>2</option>
                                         <option>3</option>
@@ -99,7 +99,7 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="datepicker">Start date</label>
+                                    <label for="datepicker">Length of stay</label>
                                     <input class="full-w" type="text" id="datepicker" name="datepicker">
                                 </div>
                                 <div class="form-group">
@@ -124,6 +124,11 @@
                     </div>
                 </div>
     </div>
+    <footer id="sticky-footer" class="py-4">
+        <div class="container text-center">
+            <small>Copyright &copy; Hidden Huts 2020</small>
+        </div>
+    </footer>
     <!-- email js -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script src="./assets/js/sendEmail.js"></script>

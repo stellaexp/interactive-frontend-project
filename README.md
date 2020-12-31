@@ -49,28 +49,26 @@ HTML, CSS and Javascript were the fundamental technologies this project was buil
 
 1. [Balsamiq](https://balsamiq.com/)
 * Wireframing tool used to create low-fidelity wireframes.
-2. [Adobe Xd](https://www.adobe.com/uk/products/xd.html)
-* A vector-based user experience design tool for high-fidelity wireframes.
-3. [Bootstrap](https://flask.palletsprojects.com/en/1.1.x/)
+2. [Bootstrap](https://flask.palletsprojects.com/en/1.1.x/)
 * Robust front-end library for HTML, CSS and JS.
-4. [Google Fonts](https://fonts.google.com/)
+3. [Google Fonts](https://fonts.google.com/)
 *  Fonts for appealing typography.
-5. [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
+4. [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
 * Google Maps is a web mapping service developed by Google.
-6. [jQuery](https://jquery.com/)
+5. [jQuery](https://jquery.com/)
 *  The project uses jQuery to simplify DOM manipulation.
-7. [jQuery UI](https://jqueryui.com/)
+6. [jQuery UI](https://jqueryui.com/)
 *  jQuery UI is a widget and interaction library built on top of jQuery.
-8. [slick](https://kenwheeler.github.io/slick/)
+7. [slick](https://kenwheeler.github.io/slick/)
 * slick is a responsive image carousel jQuery plugin.
-9. [Responsive Availability Calendar](https://www.jqueryscript.net/time-clock/Simple-Responsive-Availability-Calendar-Plugin-For-jQuery.html)
+8. [Responsive Availability Calendar](https://www.jqueryscript.net/time-clock/Simple-Responsive-Availability-Calendar-Plugin-For-jQuery.html)
 * A lightweight, responsive jQuery availability calendar plugin.
-10. [emailJS](https://www.emailjs.com/)
+9. [emailJS](https://www.emailjs.com/)
 * Sends an email from Javascript code.
 
 ## Testing
 
-I decided to manually test the application. Each page was tested on Chrome, Firefox, Safari, Opera, Internet Explorer using the following the testing criteria;
+I decided to manually test the application. Each page was tested on Chrome, Firefox, Safari, Opera, Internet Explorer. I used the below testing criteria to check each piece of functionality had been met.
 
 ### Index Page
 
@@ -92,6 +90,8 @@ I decided to manually test the application. Each page was tested on Chrome, Fire
 | slickjs | Slider working |
 | Bootstrap modal | Displaying on button selection |
 | Availability calendar | Calendar visible and dates booked are shown |
+| Tabs | Toggle between tabs |
+| Google Maps API | Displaying correctly |
 | Responsive| Responds on all different mobile sizes |
 | Browsers| Cross-compatible on other browsers |
 
@@ -103,7 +103,8 @@ I decided to manually test the application. Each page was tested on Chrome, Fire
 | Navbar responsive     |  Works in responsive mode |
 | Form input | All input types relevant and working |
 | Form validation | Are the relevant fields required |
-| Availability calendar | Calendar visible and dates booked are shown |
+| Sumit button | Clears form |
+| EmailJS| Sends copy of form to gmail account |
 | Responsive| Responds on all different mobile sizes |
 | Browsers| Cross-compatible on other browsers |
 
@@ -111,11 +112,11 @@ I decided to manually test the application. Each page was tested on Chrome, Fire
 
 I have deployed this project to GitHub Pages - you can find the live version [here](https://stellaexp.github.io/interactive-frontend-project/):
 
-I did this following these steps:
+I deployed my project following these steps:
 
 1. Created repository.
 2. Pushed all changes to repository.
-3. Navigate to the 'settings' tab on the top right navigation bar, under project name. 
+3. Navigate to 'settings' tab on Github. Found on the top right navigation bar, under project name. 
 4. Selected GitHub Pages.
 5. Published project.
 
@@ -201,4 +202,5 @@ All other images are my own.
 
 ## Acknowledgements
 I received inspiration for this project from [Canopy and Stars](https://www.canopyandstars.co.uk/). I would also like to thank tutor support, who helped me when I tried to change my last commit message and ended up in a merge conflict, this is detailed in a commit message `tutor commit`.
-Lastly, thank you Code Institute, in particular to Neil.
+
+Lastly, thank you Code Institute for your patience, in particular to Neil.
