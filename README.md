@@ -80,7 +80,7 @@ Google maps would not load on page. I kept getting this error message in the con
 
 I went into the Google Cloud Platform Console and amended the credentials, billing details and upgraded my account but it still wouldn't show. 
 
-I then tried trouleshooting it here on [stack overflow](https://stackoverflow.com/questions/35288250/google-maps-javascript-api-referernotallowedmaperror)
+I then tried troubleshooting it here on [stack overflow](https://stackoverflow.com/questions/35288250/google-maps-javascript-api-referernotallowedmaperror)
 I went through my cdn's and realised the cdn path was incorrect, both the API key supplied was incorrect and the calling of `initMap`.
 
 
