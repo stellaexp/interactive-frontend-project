@@ -83,6 +83,29 @@ I went into the Google Cloud Platform Console and amended the credentials, billi
 I then tried troubleshooting it here on [stack overflow](https://stackoverflow.com/questions/35288250/google-maps-javascript-api-referernotallowedmaperror)
 I went through my cdn's and realised the cdn path was incorrect, both the API key supplied was incorrect and the calling of `initMap`.
 
+### Email JS
+
+On clicking the 'submit' button on the contact form page, I found that my emailJS was working - I got this response in the console
+
+`SUCCESS Object { status: 200, text: "OK" }`
+
+However, the form would not clear. 
+
+I tried various methods of troubleshooting this - I used [stack overflow](https://stackoverflow.com/questions/14837466/clearing-a-text-field-on-button-click) to create a function:
+
+``` function ClearFields() {
+    document.getElementById("first").value = "";
+    document.getElementById("last").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("option").value = "";
+    document.getElementById("group").value = "";
+    document.getElementById("datepicker").value = "";
+    document.getElementById("total").value = "";
+    document.getElementById("notes").value = "";
+} ```
+
+
+But the onClick handler clashed with the emailJS library. In the end the simplest way to clear the form was to use the Form reset() Method, which I found on [w3 schools](https://www.w3schools.com/Jsref/met_form_reset.asp)
 
 ## Content
 The text for this project is entirely fictional and created by myself.
