@@ -22,8 +22,8 @@ HTML, CSS and Javascript were the fundamental technologies this project was buil
 
 1. [Balsamiq](https://balsamiq.com/)
 * Wireframing tool used to create low-fidelity wireframes.
-2. [Adoe Xd](https://www.adobe.com/uk/products/xd.html)
-A vector-based user experience design tool for high-fidelity wireframes.
+2. [Adobe Xd](https://www.adobe.com/uk/products/xd.html)
+* A vector-based user experience design tool for high-fidelity wireframes.
 3. [Bootstrap](https://flask.palletsprojects.com/en/1.1.x/)
 * Robust front-end library for HTML, CSS and JS.
 4. [Google Fonts](https://fonts.google.com/)
@@ -33,30 +33,42 @@ A vector-based user experience design tool for high-fidelity wireframes.
 6. [jQuery](https://jquery.com/)
 *  The project uses jQuery to simplify DOM manipulation.
 7. [jQuery UI](https://jqueryui.com/)
-*  jQuery UI is a widget and interaction library built on top of the jQuery
+*  jQuery UI is a widget and interaction library built on top of jQuery.
 8. [slick](https://kenwheeler.github.io/slick/)
 * slick is a responsive image carousel jQuery plugin.
 9. [Responsive Availability Calendar](https://www.jqueryscript.net/time-clock/Simple-Responsive-Availability-Calendar-Plugin-For-jQuery.html)
-* A lightweight, responsive jQuery availability calendar plugin
+* A lightweight, responsive jQuery availability calendar plugin.
+10. [emaiJS](https://www.emailjs.com/)
+Sends an email from Javascript code.
 
 ## Testing
 
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+I have deployed this project to GitHub Pages - you can find the live version [here]():
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+I did this following these steps:
+
+1. Created repository.
+2. Pushed all changes to repository.
+3. Navigate to the 'settings' tab on the top right navigation bar under project name. 
+4. Selected GitHub Pages.
+5. Published project.
+
+To run this project locally, go to your command line interface and navigate to your the directory you want to store the repository in.
+
+`cd local-directory`
+
+Then run
+
+`git clone https://github.com/stellaexp/interactive-frontend-project.git`
 
 ## Credits
 
 ## Bugs
 
-
+I encountered numerous bugs and was able to troubleshoot them by reading documentation or using stack overflow. I will list the following ugs I encountered here:
 
 ## Content
 The text for this project is entirely fictional and created by myself.
@@ -67,4 +79,4 @@ The photos used in this site were obtained from unsplash.com.
 All other images are my own.
 
 ## Acknowledgements
-I received inspiration for this project from [Canopy and Stars](https://www.canopyandstars.co.uk/). I would also like to thank tutor support who helped me on a couple of occasions.
+I received inspiration for this project from [Canopy and Stars](https://www.canopyandstars.co.uk/). I would also like to thank tutor support, who helped me when I tried to change my last commit message and ended up in a merge conflict.
