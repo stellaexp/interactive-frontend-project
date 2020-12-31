@@ -82,6 +82,8 @@ Image 01.jpg
 Image 04.jpg and 05.jpg 
 <span>Photo by <a href="https://unsplash.com/@andreaedavis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andrea Davis</a> on <a href="https://unsplash.com/s/photos/glamping?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
+Image 08.jpg
+<span>Photo by <a href="https://unsplash.com/@espenbi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Espen Bierud</a> on <a href="https://unsplash.com/s/photos/glamping?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 All other images are my own.
 
 ## Acknowledgements
