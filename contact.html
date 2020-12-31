@@ -18,11 +18,14 @@
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- jquery ui CSS -->
+    <link rel="stylesheet" href="/assets/vendors/jquery-ui/jquery-ui.min.css">
     <!-- Bootstrap & jQuery CDN -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="./assets/vendors/jquery-ui/jquery-ui.js"></script>
     <script type="text/javascript"> 
         (function(){
         emailjs.init("user_NjZWh4qnG3A9vjWb6Aa5u");
@@ -81,7 +84,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="email_address">Email address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    <input type="email" class="form-control" id="email_address" placeholder="name@example.com">
                                 </div>
                                 <div class="form-group">
                                     <label for="option">Hut selected</label>
@@ -91,7 +94,7 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="group">People</label>
+                                    <label for="group">Attendees</label>
                                     <select class="form-control" id="group">
                                         <option>1</option>
                                         <option>2</option>
@@ -101,10 +104,25 @@
                                         <option>6</option>
                                     </select>
                                 </div>
+                                <div class="form-group">
+                                    <label for="datepicker">Start date</label>
+                                    <input class="full-w" type="text" id="datepicker">
+                                </div>
+                                <div class="form-group">
+                                    <label for="total">Total number of days</label>
+                                    <select class="form-control" id="total">
+                                        <option>2 night minimum</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7+</option>
+                                    </select>
+                                </div>
 
                                 <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Example textarea</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <label for="Notes">Notes</label>
+                                    <textarea class="form-control" id="notes" rows="3"></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-submit-form">Submit</button>
                                 </form>
@@ -114,5 +132,13 @@
                 </div>
     </div>
     <script src="./assets/js/sendEmail.js"></script>
+    <!-- datepicker jquery UI-->
+    <script>
+    $(document).ready(function(){
+        $( function() {
+            $("#datepicker").datepicker();
+        } );
+    })
+    </script>
 </body>
 </html>

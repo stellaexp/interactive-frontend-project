@@ -157,6 +157,10 @@ color: black !important;
     text-transform: uppercase;
 }
 
+.full-w {
+    width: 100%;
+}
+
 
 /* HUT DETAIL PAGE */
 
