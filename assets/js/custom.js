@@ -40,3 +40,6 @@ $(document).ready(function(){
         event.currentTarget.className += " active";    
         
     }
+
+/* Prevent default datepicker from displaying in chrome https://stackoverflow.com/questions/11320615/disable-native-datepicker-in-google-chrome */
+    jQuery('input[type="date"]').live('click', function(e) {e.preventDefault();}).datepicker();
